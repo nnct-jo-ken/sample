@@ -3,6 +3,12 @@ void setup() {
 }
 
 void draw() {
-  background(240, 220, 200); //背景
-  ellipse(mouseX, mouseY, 40, 40); //自機
+  // 背景
+  background(240, 220, 200);
+
+  // 自機
+  int px = mouseX;
+  int py = mouseY;
+  int pr = 40;
+  ellipse(px, py, pr, pr);
 }
